@@ -2,7 +2,7 @@
 
 
 // fetch
-fetch('http://localhost:3000/api/v0')
+fetch('https:cpnt2624a.herokuapp.com/api/v0')
   .then( res => res.json())
   .then( images => { displayImages(images) })
 
@@ -13,7 +13,7 @@ fetch('http://localhost:3000/api/v0')
   const container = document.querySelector('.container');
 
   // callback
-const displayImages = (myImages)=>{
+const displayImages = (Images)=>{
   for (let i = 0; i < myImages.length ; i++) {
 
     // Creating the figure That grabs my images.
