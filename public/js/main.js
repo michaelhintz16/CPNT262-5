@@ -4,7 +4,7 @@
 // fetch
 fetch('https:cpnt2624a.herokuapp.com/api/v0')
   .then( res => res.json())
-  .then( Images => { displayImages(Images) })
+  .then( myImages => { displayImages(myImages) })
 
 
 // For loop that generates the gallery.
