@@ -2,9 +2,9 @@
 
 
 // fetch
-fetch('https:cpnt2624a.herokuapp.com/api/v0')
+fetch('/api/v0')
   .then( res => res.json())
-  .then( myImages => { displayImages(myImages) })
+  .then( images => { displayImages(images) })
 
 
 // For loop that generates the gallery.
@@ -13,7 +13,8 @@ fetch('https:cpnt2624a.herokuapp.com/api/v0')
   const container = document.querySelector('.container');
 
   // callback
-const displayImages = (Images)=>{
+const displayImages = (myImages)=>{
+
   for (let i = 0; i < myImages.length ; i++) {
 
     // Creating the figure That grabs my images.
@@ -56,14 +57,11 @@ const displayImages = (Images)=>{
     
     //Div (a)created. Fig, Figcaption (a)
     
-}
 
-
-  
-
-const figCapLink = document.createElement('a');
-figCapLink.href = `${myImages[i].creditURL}`;
-figCapLink.target = "_blank";
-figCapLink.innerText = `Photo by: ${myImages[i].credit}`;
-figCap.appendChild(figCapLink);
+    const figCapLink = document.createElement('a');
+    figCapLink.href = `${myImages[i].creditURL}`;
+    figCapLink.target = "_blank";
+    figCapLink.innerText = `Photo by: ${myImages[i].credit}`;
+    figCap.appendChild(figCapLink);
+  }
 }

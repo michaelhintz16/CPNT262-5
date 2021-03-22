@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname,'/public')))
 app.set('view engine','ejs')
 
 // front end
-app.use('',index)
+app.use('/',index)
 
 // data
 app.use('/api/v0',v0)
