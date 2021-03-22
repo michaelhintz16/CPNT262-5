@@ -1,0 +1,103 @@
+  /* Games Tittle styling*/ 
+  body {
+    font-family: "oswald", sans-serif;
+    font-size: 2rem;
+    width: 80vw;  
+    margin: auto;
+    color:rgb(8, 8, 8);
+    background: linear-gradient(110deg, #fdcd3b 60%,green 60%, lightblue 60%);
+
+
+    }
+    h1 {
+    font-size: 6rem;
+    word-spacing: 10%;
+    font-weight: 700;
+    text-align: center;
+    margin: 3rem; 
+    background: linear-gradient(50deg, #c5993a 50%, rgb(235, 150, 14) 0);
+
+    }
+
+    /* Images container*/
+    .container {
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+
+
+    }
+
+    figure{  
+      
+    padding: 10px 0px 0px 0px;
+    text-align: center;  margin: 1.2rem;
+    
+
+
+    }
+    figure a {
+    display:relative;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+
+    }
+
+    figure img {
+
+    max-width: 100%;
+    vertical-align: bottom;
+
+    }
+
+    figure:hover{
+    transform: translateY(-10%);
+   
+
+
+    }
+    /* Figcaption styling*/
+    figure figcaption{
+      
+    position: relative;
+    height: 90px;
+    left: 5.3%;
+    width: 25rem;
+    bottom: 20px;
+    font-size: 15px;
+    background-color: #333;
+
+
+
+    }
+
+
+    figure figcaption a { 
+      
+      
+    position: relative;
+    left: 0px;
+    top: 30px;
+    color: #06e719;
+    text-decoration: none ;
+
+    }
+    /*Making the page responsive to size*/
+    @media screen and (max-width: 600px) {
+    .column {
+    flex: 100%;
+    max-width: 10%;
+
+    }footer {
+    padding-top: 4rem;
+
+    text-align: center;
+    font-size: 1.3rem;  
+    }
+
+    }
