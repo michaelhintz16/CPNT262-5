@@ -9,7 +9,7 @@ used this for most of my code when having troubles [stack overflow](https://stac
 
 
 # Attributes 
-* big thanks to tony for the after class reviws and the one on saturday. 
-* huge thanks to norvill for helping me get things runnign when i had debug issues. 
+* big thanks to tony for the after class reviews and the one on saturday. 
+* huge thanks to norvill for helping me get things running when i had debug issues. 
 * [heroku page](https://cpnt2624a.herokuapp.com/)
 * [github repo](https://github.com/michaelhintz16/CPNT262-4a)
