@@ -65,3 +65,5 @@ const displayImages = (myImages)=>{
     figCap.appendChild(figCapLink);
   }
 }
+
+  
